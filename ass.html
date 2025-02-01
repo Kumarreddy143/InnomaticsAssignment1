@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigenment</title>
+    <style>
+        .on{
+            justify-content: center;
+            text-align: center;
+           
+        }
+        #one{
+            justify-content: center;
+            text-align: center;
+        
+        }
+        .a{
+            color: blueu;
+        }
+        .lab{
+            justify-content: center;
+            text-align: center;
+        }
+        .lc{
+            justify-content: center;
+            text-align: center;  
+        }
+        .cat{
+            justify-content: center;
+            text-align: center; 
+        }
+        .des{
+            justify-content: center;
+            text-align: center; 
+        }
+        .date{
+            justify-content: center;
+            text-align: center; 
+        }
+        .type{
+            justify-content: center;
+            text-align: center; 
+        }
+        .btn{
+            justify-content: center;
+            text-align: center;
+            }
+        .table{
+            padding-left: 480px;
+            margin: 10px;
+            padding: right;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; justify-content: center;">Personal Budget Tracker</h1>
+
+    
+    <div class="on">
+       <a href="https://cdn.vertex42.com/ExcelTemplates/Images/income-and-expense-worksheet.png">Add Income/Expense</a>
+    </div>
+    
+    <div id="one">
+        <a href="https://i.pinimg.com/1200x/e6/ff/a1/e6ffa142b36f036a5163577ecb2265c9.jpg">View Budget Summary</a>
+     </div>
+
+    <h2 style="text-align: center; justify-content: center;">Welcome to the Personal Budget Tracker</h2>
+     <p style="text-align: center; justify-content: center;">The tracker helps you manage your monthly income and expenses. You can add new entries and view a detailed summsry of your budget.</p>
+    <h2 style="text-align: center; justify-content: center;">Add New Income or Expence</h2>
+    <div class="lab">
+       <lable for="Anount">Amount:</lable> <input type="text" placeholder="Enter the Amount"> 
+    </div><br>
+    
+    <div class="cat">
+       <lable>
+            Category:
+        <select name="Category">
+            <option value="None">None</option>
+            <option value="Food">Food</option>
+            <option value="Car">Car</option>
+            <option value="Bike">Bike</option>
+            <option value="Hospital">Food</option>
+            <option value="Fule">Fule</option>
+        </select>
+      </lable>
+    </div><br>
+
+     <div class="des">
+        <lable for="Description">Description:</lable> <input type="text"> 
+     </div><br>
+
+     <div class="date">
+        <lable>
+            Date: <input type="date" name="date">
+    </div><br>
+
+    <div class="type">
+        <lable>type:
+            <input type="radio" name="type" value="income">Income
+            <input type="radio" name="type" value="expense">Expense   
+        </lable>
+    </div><br>
+
+    <div class="btn">
+        <button>Add Entry</button>
+        
+    </div>
+
+    <h2 style="text-align: center; justify-content: center;"> Budget Summary</h2>
+    
+    <div class="table">
+        <table border="2px">
+        
+        <tr>
+            <th rowspan="2">Category</th>
+            <th colspan="2">Transaction Details</th>
+            <th rowspan="2">Status</th>
+            <th rowspan="2">Action</th>
+        </tr> 
+        <tr>
+            <th>Amount</th>
+            <th>Description</th>
+            
+        </tr>
+        <tr>
+            <td>Food</td>
+            <td>$200</td>
+            <td>Groceries for the week</td>
+            <td>Completed</td>
+            <td><button>edit</button><button>Delete</button></td>
+            
+        </tr>
+        <tr>
+            <td>Transportation</td>
+            <td>$100</td>
+            <td>Monthly bus pass</td>
+            <td>Completed</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>Enttainment</td>
+            <td>$50</td>
+            <td>Cinema tickets</td>
+            <td>Completed</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>Salary</td>
+            <td>$3000</td>
+            <td>Monthly salary payment</td>
+            <td>Completed</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>Savings</td>
+            <td>$500</td>
+            <td>Emergency fund deposit</td>
+            <td>Pending</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Utilities</td>
+            <td>$150</td>
+            <td>Electricity bill</td>
+            <td>Completed</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>$50</td>
+            <td>Water bill</td>
+            <td>Pending</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Housing</td>
+            <td>$1200</td>
+            <td>Monthly rent</td>
+            <td>Completed</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>$300</td>
+            <td>Maintenance fee</td>
+            <td>Pending</td>
+            <td><button>edit</button><button>Delete</button></td>
+        </tr>
+    </table>
+  </div>
+
+  <hr>
+    <p style="text-align: center; justify-content: center;">Personal Budget Traker - Version 1.0</p>
+</body>
+</html>
